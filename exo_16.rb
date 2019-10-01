@@ -1,7 +1,8 @@
 puts "Quel âge as-tu ?"
 ageNow= gets.to_i
-yearOfBirth= 2019 - ageNow
+age=0
 ageNow.times do
-yearOfBirth+=1
-puts yearOfBirth
+puts "il y a #{ageNow}ans tu avais #{age}années"
+ageNow-=1
+age+=1
 end
