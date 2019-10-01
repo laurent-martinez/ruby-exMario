@@ -1,7 +1,8 @@
 puts "donnez moi un chiffre, un nombre ou un numéro svp (pas trop élevé pour éviter de faire exploser ton ordinateur)"
+print "> "
 numberOfRepeat= gets.to_i
-total=0
+i=0
 numberOfRepeat.times do
-total+=1
-puts "total ="+ total.to_s
+i+=1
+puts i
 end
